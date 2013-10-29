@@ -34,6 +34,16 @@ p {
 	text-align:center;
 }
 
+a{
+	color:#fff;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#067072;
+	text-decoration:none;
+}
+
 floatRight {
 	float:right;
 }
@@ -48,6 +58,7 @@ figure {
 
 figcaption{
 	text-align:center;
+	padding-top:5px;
 }
 
 /* End Global */
@@ -89,6 +100,7 @@ img[alt~="gallery"]:hover {
 	
 
 }
+
 
 
 
@@ -182,6 +194,62 @@ line-height:24px;
 	
 }
 
+#listsection {
+	background-color:#14a589;
+	width:100%;
+	height:415px;
+}
+
+.listwrapper{
+	width:960px;
+	height:auto;
+	margin:0 auto;
+	padding:15px;
+}
+
+.listwrapper h1{
+	margin-bottom:20px;
+}
+
+.listwrapper p{
+	text-align:center;
+	padding-top:35px;
+	font-size:20px;
+}
+
+.listwrapper ul{
+	list-style-type:square;
+	
+}
+
+.listwrapper ul li{
+	padding-bottom:20px;
+}
+
+.listwrapper ul li:nth-child(2n + 1) {
+	color:#067072;
+
+
+}
+
+
+footer {
+	background-color:#055a5c;
+	width:100%;
+	height:150px;
+}
+
+.footerwrapper{
+	width:960px;
+	height:auto;
+	margin:0 auto;
+	padding:15px;
+}
+
+.footerwrapper p{
+	margin-top:50px;
+	text-align:left;
+}
 
 
 
