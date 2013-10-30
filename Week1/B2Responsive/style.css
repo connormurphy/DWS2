@@ -362,7 +362,7 @@ footer {
 		font-weight:400;
 	}
 	p{
-		padding:10px;
+		padding:2%;
 	}
 
 	.listwrapper ul{
@@ -371,10 +371,16 @@ footer {
 	
 	}
 
-	.top_image{
-		display:block;
-		text-align:center;
+	.aboutwrapper h1 {
+	padding-bottom:2%;
+	padding-top:3%;
 	}
+
+	.listwrapper h1{
+	margin-bottom:2.08333333%; 
+	margin-top:3%;
+}
+
 
 
 	
