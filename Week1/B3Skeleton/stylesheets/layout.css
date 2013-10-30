@@ -17,6 +17,90 @@
 /* #Site Styles
 ================================================== */
 
+.intro{
+	background-color:#ff434c;
+	height:auto;
+	border-radius:3px;
+	padding:10px;
+}
+
+.intro p{
+	font-size:1em;
+	text-align:center;
+}
+
+.intro h1{
+	font-size:2.5em;
+	text-align:left;
+	color:#fff;
+}
+
+.intro h2{
+	font-size:1.5em;
+	text-align:left;
+	color:#fff;
+}
+
+#about{
+	background-color:#30394f;
+	height:auto;
+	border-radius:3px;
+	padding:10px;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+#about h1{
+	color:#fff;
+	font-size:2em;
+}
+
+#about p{
+	color:#fff;
+}
+
+
+.leftcol{
+	color:#fff;
+	padding:10px;
+	height:auto;
+
+}
+
+.leftcol h1{
+	color:#fff;
+	font-size:2em;
+}
+
+
+
+.middlecol{
+	color:#fff;
+	padding:10px;
+	
+}
+
+.middlecol h1{
+	color:#fff;
+	font-size:2em;
+}
+
+.rightcol{
+	color:#fff;
+	padding:10px;
+	
+}
+
+.rightcol h1{
+	color: #fff;
+	font-size:2em;
+}
+
+
+
+
+
+
 /* #Page Styles
 ================================================== */
 
