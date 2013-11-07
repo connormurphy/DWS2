@@ -126,3 +126,15 @@ margin-bottom:1em;
 
 }
 
+.wrap-footer{
+	background-color:#4b4e57;
+	width:100%;
+	padding:1.875em 0 1em 0;
+
+}
+
+.wrap-footer p{
+	text-align:center;
+	color:#fff;
+}
+
