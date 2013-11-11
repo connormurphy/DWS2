@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>B7- CSS Forms</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,300,500' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+
+
+	<div class="container">
+		<header>
+			Tell us more!
+		</header>
+		
+		<div class="c-form1">
+      <form name="wf-form-connors-form" data-name="Connors form">
+        <label for="name">Name:</label>
+        <input class="c-input" type="text" placeholder="Enter your name" name="name" data-name="Name"></input>
+        <label for="email">Your Address:</label>
+        <input class="c-input" type="text" placeholder="Enter your address" name="email" data-name="Email" required="required"></input>
+        <label for="email">Favorite Color</label>
+        <input class="c-input" type="text" placeholder="Enter your favorite color" name="email" data-name="Email" required="required"></input>
+        <label for="email">Why do you like this color?</label>
+        <input class="c-input" type="text" placeholder="Tell us why!" name="field" required="required"></input>
+        <label for="email">What's your birthdate?</label><br>
+        <input class="c-input month" type="text" placeholder="02" name="field" required="required"></input>
+        <input class="c-input day" type="text" placeholder="25" name="field" required="required"></input>
+        <input class="c-input day year" type="text" placeholder="1990" name="field" required="required"></input><br>
+        <label for="email">Phone Number</label>
+        <input class="c-input" type="text" placeholder="ex: 5851237890" name="field" required="required"></input>
+        <label for="email">Where do you work?</label>
+        <input class="c-input" type="text" placeholder="ex: Kodak" name="field" required="required"></input>
+        <label for="email">How many years have you been here?</label>
+        <select class="c-select" name="-1-year" data-name="1 Year" required="required">
+          <option value="1">1 Year</option>
+          <option value="2">2 years</option>
+          <option value="3">3 Years</option>
+          <option value="4">4 Years</option>
+          <option value="5">5 Years</option>
+          <option value="5 or more">5 or more years</option>
+        </select>
+        
+	  	<input type="checkbox" value="1" id="checkboxFiveInput" name="checkbox">Receive our newsletter?</input><br>
+	  	<input type="radio" name="radiogroup" id="radio-1">
+		<label for="radio-1">18 Years or older?</label><br>
+        <input class="c-button send" type="submit" value="Send!" data-wait="Please wait..."></input>
+
+      </form>
+     
+    </div>
+</div>
+  
+    
+
+</body>
+</html>
