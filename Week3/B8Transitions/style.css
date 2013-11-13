@@ -1,0 +1,152 @@
+
+
+body{
+	background-color:#c9d4d6;
+	font-size:1em;
+	font-family: 'Raleway', sans-serif;
+	color:#202930;
+	max-width:960px;
+	margin:0 auto;
+}
+
+
+.container{
+	width:100%;
+	background-color:#fff;
+	border-radius:3px;
+	margin-top:150px;
+}
+
+header{
+	width:100%;
+	background-color:#e06c5f;
+	padding:10px;
+	border-radius:3px;
+}
+
+header h1{
+	color:#fff;
+	font-size:1.250em;
+}
+
+header p{
+	color:#fff;
+}
+
+.gallerySection{
+	width:100%;
+	background-color:#fff;
+	text-align:center;
+}
+
+.pic{
+	display:inline-block;
+	height:238px;
+	width:30.20833333%;
+	padding:8px;
+	overflow:hidden;
+
+
+}
+
+
+
+
+
+
+.grow img {
+  height: 300px;
+  width: 300px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  width: 400px;
+  height: 400px;
+}
+
+
+.shrink img {
+  height: 400px;
+  width: 400px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.shrink img:hover {
+  width: 300px;
+  height: 300px;
+}
+
+
+.sidepan img {
+  margin-left: 0px;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+}
+ 
+.sidepan img:hover {
+  margin-left: -200px;
+}
+
+
+.vertpan img {
+  margin-top: 0px;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+}
+ 
+.vertpan img:hover {
+  margin-top: -100px;
+}
+
+
+
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.tilt:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+
+.morph {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.morph:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
