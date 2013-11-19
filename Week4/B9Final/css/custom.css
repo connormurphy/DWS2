@@ -7,6 +7,26 @@ body{
 h4{
 	font-size:20px;
 	color:#e06c5f;
+	text-align:left;
+}
+
+p{
+	text-align:left;
+}
+
+hr{
+	border:0;
+	width:13%;
+	color:#d8d8d8;
+	background-color:#d8d8d8;
+	margin:15px auto 15px auto;
+	height:1px;
+}
+
+img[alt~="thumb"]:hover {
+	opacity:0.5;
+	transition:500ms ease;
+
 }
 
 
@@ -58,7 +78,6 @@ a:hover{
 }*/
 
 .wrap-about {
-	
 	width:100%;
 	padding:3.125em 0 3.125em 0;
 	text-align:center;
@@ -69,14 +88,46 @@ a:hover{
 }
 
 .wrap-video {
+	width:100%;
+	padding:3.125em 0 3.125em 0;
+	text-align:center;
 	
+}
+
+.wrap-work {
 	width:100%;
 	padding:3.125em 0 3.125em 0;
 	text-align:center;
 	border-bottom: 2px solid #e06c5f;
 	
+}
 
+.portfolio{
+	margin:0 auto;
+
+}
+
+.portfolio ul{
+	margin:35px auto;
+	text-align:center;
+
+}
+
+.portfolio li{
 	
+	display:inline-block;
+	
+	margin:4px 4px 0 4px;
+	
+
+}
+
+.portfolio h4 {
+	text-align:center;
+}
+
+.portfolio p{
+	text-align:center;
 }
 
 
