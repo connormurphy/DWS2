@@ -186,19 +186,69 @@ a:hover{
 .wrap-form {
 	width:100%;
 	padding:3.125em 0 3.125em 0;
-	text-align:center;
 	
 	
+	
+}
+
+.wrap-form .button{
+	background-color:#d94c3b;
+	border-color:#d94c3b;
+}
+
+.wrap-form .button:hover{
+	background-color:#c64536;
 }
 
 .wrap-footer {
 	background-color:#111;
 	width:100%;
-	padding:3.125em 0 3.125em 0;
+	padding:3.125em 0 1.325em 0;
 	text-align:center;
 	
 	
 }
+
+.wrap-footer p{
+	color:#fff;
+	font-size:1em;
+	text-align:left;
+}
+
+
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+	
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.right {
+			display:none;
+}
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.button{
+			display:none;
+		}
+
+
+	}
 
 
 
